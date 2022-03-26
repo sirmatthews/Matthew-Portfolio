@@ -1,0 +1,128 @@
+
+/* General Styles */
+
+
+body {
+background-color: white;
+margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+main h2 {
+  font-size: 28px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+main h3 {
+  font-size: 22px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+main p {
+ font-family: 'Montserrat', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0em;
+}
+
+/* ----- =header & nav ----- */
+
+header {
+  margin-bottom: 40px;
+  display: block;
+ 
+}
+
+
+	header h1 {
+  color: #eff0e5;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 56px;
+
+}
+header h1 a  {
+	text-decoration: none;
+	color: #8f99a4;
+}
+header h1 a:hover {
+	color: #777;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 18px;
+  color: #8f99a4;
+  font-family: Quattrocento, sans-serif;
+}
+
+nav a:hover {
+  color: #777;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+v
+}
+/* Groups & Items  (Mobile First) */
+.wrapper {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/* Groups & Items  (Desktop) */
+
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* ARTICLE SECTIONS */
+
+#home, #portfolio, #contact {
+  margin-bottom: 120px;
+}
+
+/* ABOUT ARTICLE */
+
+#about {
+  background-color: #c5c0b8;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
